@@ -1,0 +1,110 @@
+{
+  "U1": {
+    "zuegeUnterwegs": 4,
+    "zuegeAuslastung": [
+      "71%",
+      "33%",
+      "45%",
+      "54%"
+    ],
+    "letzteStopsVor": [
+      "1 Minute(n)",
+      "4 Minute(n)",
+      "4 Minute(n)",
+      "3 Minute(n)"
+    ],
+    "zugfuehrer": [
+      "Bernhard Bauer",
+      "Gudrun Groß",
+      "Gudrun Groß",
+      "Franziska Fröhlich"
+    ]
+  },
+  "U2": {
+    "zuegeUnterwegs": 4,
+    "zuegeAuslastung": [
+      "77%",
+      "50%",
+      "78%",
+      "58%"
+    ],
+    "letzteStopsVor": [
+      "2 Minute(n)",
+      "4 Minute(n)",
+      "1 Minute(n)",
+      "3 Minute(n)"
+    ],
+    "zugfuehrer": [
+      "Friederike Falk",
+      "Hans Huber",
+      "Markus Müller",
+      "Markus Müller"
+    ]
+  },
+  "U3": {
+    "zuegeUnterwegs": 4,
+    "zuegeAuslastung": [
+      "49%",
+      "70%",
+      "54%",
+      "57%"
+    ],
+    "letzteStopsVor": [
+      "3 Minute(n)",
+      "2 Minute(n)",
+      "3 Minute(n)",
+      "2 Minute(n)"
+    ],
+    "zugfuehrer": [
+      "Konrad Kummer",
+      "Bernhard Bauer",
+      "Friederike Falk",
+      "Franziska Fröhlich"
+    ]
+  },
+  "U4": {
+    "zuegeUnterwegs": 5,
+    "zuegeAuslastung": [
+      "47%",
+      "57%",
+      "52%",
+      "82%",
+      "43%"
+    ],
+    "letzteStopsVor": [
+      "1 Minute(n)",
+      "2 Minute(n)",
+      "1 Minute(n)",
+      "2 Minute(n)",
+      "2 Minute(n)"
+    ],
+    "zugfuehrer": [
+      "Konrad Kummer",
+      "Cornelia Chormann",
+      "Hans Huber",
+      "Bernhard Bauer",
+      "Cornelia Chormann"
+    ]
+  },
+  "U6": {
+    "zuegeUnterwegs": 4,
+    "zuegeAuslastung": [
+      "65%",
+      "58%",
+      "61%",
+      "55%"
+    ],
+    "letzteStopsVor": [
+      "3 Minute(n)",
+      "2 Minute(n)",
+      "2 Minute(n)",
+      "2 Minute(n)"
+    ],
+    "zugfuehrer": [
+      "Franziska Fröhlich",
+      "Susanne Sommer",
+      "Susanne Sommer",
+      "Cornelia Chormann"
+    ]
+  }
+}

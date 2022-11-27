@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    image: node:18.12
+    user: node
+    working_dir: /code
+    volumes:
+      - ./:/code
+    ipc: host
+    ports:
+      - "3000:3000"
+    command: [ "node", "server.js" ]

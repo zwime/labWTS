@@ -1,0 +1,204 @@
+:root {
+    --white:     #fdfdfd;
+    --black:     #222;
+    --blue:      #00c3ff;
+    --lightblue: #c7e4f2;
+    --darkblue:  #20214f;
+}
+
+* {
+    color:       var(--fontColor);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    border:      var(--fontColor);
+}
+
+body {
+    background: var(--bg);
+    padding:    0;
+    margin:     0;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.btn {
+    cursor:           pointer;
+    position:         absolute;
+    top:              5%;
+    left:             90%;
+    height:           50px;
+    width:            50px;
+    border-radius:    50%;
+    border:           none;
+    color:            var(--btnFontColor);
+    background-color: var(--btnBg);
+    font-size:        12px;
+    text-align:       center;
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.light-theme {
+    --bg:           var(--white);
+    --fontColor:    var(--black);
+    --btnBg:        var(--black);
+    --btnFontColor: var(--white);
+    --libg:         var(--lightblue)
+}
+
+.dark-theme {
+    --bg:           var(--black);
+    --fontColor:    var(--white);
+    --btnBg:        var(--white);
+    --btnFontColor: var(--black);
+    --libg:         var(--darkblue)
+}
+
+header {
+    --fontColor:         var(--black);
+    background-image:    url('logo.png');
+    padding:             0 0 350px;
+    background-size:     cover;
+    background-position: center;
+    text-align:          left;
+}
+
+.subheader {
+    font-size: 16px;
+}
+
+#infoText {
+    margin-bottom: 27px;
+}
+
+.container {
+    max-width: 600px;
+    margin:    0 auto;
+}
+
+.subway-line {
+    display:          none;
+    width:            calc(33.33% - 12px);
+    border:           2px solid #8080801f;
+    border-radius:    10px;
+    padding:          10px;
+    font-size:        12px;
+    line-height:      1.4;
+    margin:           15px 0 0 12px;
+    box-sizing:       border-box;
+    white-space:      nowrap;
+    background-color: var(--libg);
+}
+
+@media only screen and (max-width: 600px) {
+    .subway-line {
+        width:      calc(100% - 15px);
+        margin:     15px;
+        text-align: center;
+    }
+}
+
+.subway-line ul {
+    margin:  0;
+    padding: 0;
+}
+
+.subway-line ul li {
+    list-style: none;
+}
+
+.subway-line.show {
+    display: block;
+}
+
+#subwayLines {
+    display:         flex;
+    justify-content: center;
+    margin-bottom:   35px;
+}
+
+#subwayLines > a {
+    display: inline-block;
+    width:   50px;
+    height:  50px;
+    margin:  0 5px;
+}
+
+#subwayLines > a > img {
+    width:  100%;
+    height: 100%;
+}
+
+#Wrapper {
+    margin-top: 25px;
+}
+
+#innerWrapper {
+    display:   inline-flex;
+    flex-wrap: wrap;
+    margin:    -12px 0 40px -12px;
+    width:     calc(100% + 12px);
+}
+
+.long_text {
+    display:    inline-flex;
+    flex-wrap:  wrap;
+    margin:     12px 0 20px 12px;
+    width:      calc(100% + 12px);
+    padding:    12px 20px;
+    background: var(--bg);
+    box-sizing: border-box;
+}
+
+.short_text {
+    display:    inline-flex;
+    flex-wrap:  wrap;
+    margin:     12px 0 20px 12px;
+    width:      calc(100% + 12px);
+    padding:    12px 20px;
+    background: var(--bg);
+    box-sizing: border-box;
+}
+
+label {
+    margin:     10px 10px 10px 10px;
+    width:      calc(100% + 12px);
+    padding:    12px 20px;
+    background: var(--bg);
+    box-sizing: border-box;
+}
+
+#placeholder {
+    display:   block;
+}
+
+#placeholder .contact-request {
+    display:       block;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border:          solid 1px #dddddd;
+    border-collapse: collapse;
+    padding:         2px 3px;
+    text-align:      center;
+}
+
+input[type=submit], button {
+    color: black
+}
